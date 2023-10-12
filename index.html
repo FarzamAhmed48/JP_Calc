@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="calc">
+            <div class="input">
+                <input type="text" class="inpbox" id="input">
+            </div>
+            <div class="operations">
+                <div class="ope1" id="pl" onclick="plus(); check()">+</div>
+                <div class="ope2" id="min" onclick="minus()">-</div>
+                <div class="ope3" id="mul" onclick="multiply()">x</div>
+                <div class="ope4" id="div" onclick="divide()">/</div>
+            </div>
+            <div class="inif">
+                <div class="flex">
+                    <div class="flexitem" id="seven" onclick="seve()">7</div>
+                    <div class="flexitem" id="four" onclick="fou()">4</div>
+                    <div class="flexitem" id="one" onclick="on()">1</div>
+                    <div class="flexitem" id="zero" onclick="zer()">0</div>
+                </div>
+                <div class="flex">
+                    <div class="flexitem" id="eight" onclick="eigh()">8</div>
+                    <div class="flexitem" id="five" onclick="fiv()">5</div>
+                    <div class="flexitem" id="two" onclick="tw()">2</div>
+                    <div class="flexitem" style="font-size: 30px;" id="dot">.</div>
+                </div>
+                <div class="flex">
+                    <div class="flexitem" id="nine" onclick="nin()">9</div>
+                    <div class="flexitem" id="six" onclick="si()">6</div>
+                    <div class="flexitem" id="three" onclick="thre()">3</div>
+                    <div class="flexitem" id="AC" onclick="AC()">AC</div>
+                </div>
+                <div class="equal flex1">
+                    <div class="flexitem1" id="equals" onclick="equal()">=</div>
+                </div>
+            </div>
+            
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

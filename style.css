@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.calc{
+    width: 300px;
+}
+.inpbox{
+    background-color: rgb(44, 44, 44);
+    height: 100px;
+    width: 194px;
+    max-width: 300px;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 10px;
+}
+.operations{
+    display: flex;
+}
+.ope1,.ope2,.ope3,.ope4{
+    width: 50px;
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    border: 1px solid black;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+}
+.flex{
+    
+    display: flex;
+    flex-direction: column;
+}
+.flexitem{
+    background-color:ghostwhite;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.inif{
+    display: flex;
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    flex-basis:  50px;
+    height: 206px;
+    background-color:orange;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.flexitem1{
+    padding: 100px 0px;
+}
